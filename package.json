@@ -35,8 +35,7 @@
   },
   "ava": {
     "require": ["babel-register", "babel-polyfill"],
-    "files": ["test/index.js"],
-    "babel": "inherit"
+    "files": ["test/index.js"]
   },
   "author": "mrtruongleo <mrtruongleo@gmail.com>",
   "repository": {
