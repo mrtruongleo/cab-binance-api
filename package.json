@@ -1,6 +1,6 @@
 {
-  "name": "cab-binance-api",
-  "version": "1.0.1",
+  "name": "@mrtruongleo/cab-binance-api",
+  "version": "1.0.2",
   "description": "A react native API wrapper for Binance",
   "main": "dist",
   "scripts": {
@@ -41,5 +41,8 @@
   "repository": {
   	"type": "git",
   	"url": "https://github.com/mrtruongleo/cab-binance-api"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

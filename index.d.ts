@@ -1,5 +1,5 @@
 // tslint:disable:interface-name
-declare module 'cab-binance-api' {
+declare module '@mrtruongleo/cab-binance-api' {
     export default function (options?: { apiKey: string; apiSecret: string }): Binance;
 
     export interface Account {

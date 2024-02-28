@@ -123,11 +123,10 @@ const privateCall = ({ apiKey, apiSecret }) => (
       .finalize()
       .toString()
 
-    console.log(signature)
+    //console.log(signature)
 
     const newData = noExtra ? data : { ...data, timestamp, signature }
-    console.log(newData)
-    console.log(method)
+    
     console.log(`${BASE}${(path.includes('/wapi')||path.includes('/sapi')) ? '' : '/api'}${path}${noData
           ? ''
           : makeQueryString(newData)}`)
