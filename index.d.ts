@@ -1,5 +1,5 @@
 // tslint:disable:interface-name
-declare module 'binance-api-react-native' {
+declare module 'cab-binance-api' {
     export default function (options?: { apiKey: string; apiSecret: string }): Binance;
 
     export interface Account {
