@@ -1,6 +1,6 @@
 {
   "name": "@mrtruongleo/cab-binance-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A react native API wrapper for Binance",
   "main": "dist",
   "scripts": {

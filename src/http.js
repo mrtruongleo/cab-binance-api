@@ -127,9 +127,6 @@ const privateCall = ({ apiKey, apiSecret }) => (
 
     const newData = noExtra ? data : { ...data, timestamp, signature }
     
-    console.log(`${BASE}${(path.includes('/wapi')||path.includes('/sapi')) ? '' : '/api'}${path}${noData
-          ? ''
-          : makeQueryString(newData)}`)
     return sendResult(
       fetch(
         `${BASE}${(path.includes('/wapi')||path.includes('/sapi')) ? '' : '/api'}${path}${noData
